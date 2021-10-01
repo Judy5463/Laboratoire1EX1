@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="693dp"
+        android:layout_height="732dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="399dp"
+            android:layout_height="69dp"
+            android:text="@string/exercice_1"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rdoCylindre"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="@string/cylindre" />
+
+        <RadioButton
+            android:id="@+id/rdoCercle"
+            android:layout_width="140dp"
+            android:layout_height="62dp"
+            android:text="@string/cercle" />
+
+
+        <Button
+            android:id="@+id/btnAir"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="84dp"
+            android:text="@string/air"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="421dp" />
+
+        <Button
+            android:id="@+id/btnVolume"
+            android:layout_width="359dp"
+            android:layout_height="wrap_content"
+            android:text="@string/volume"
+            tools:layout_editor_absoluteX="235dp"
+            tools:layout_editor_absoluteY="421dp" />
+
+        <EditText
+            android:id="@+id/edRadius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text="@string/radius"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="279dp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/edHauteur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text="@string/hauteur"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="100dp"
+            android:autofillHints="" />
+
+        <TextView
+            android:id="@+id/txtResultat"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="504dp" />
+    </LinearLayout>
+</android.widget.RelativeLayout>

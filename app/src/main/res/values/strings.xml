@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Laboratoire1</string>
+    <string name="volume">VOLUME</string>
+    <string name="air">AIR</string>
+    <string name="cercle">CERCLE</string>
+    <string name="cylindre">CYLINDRE</string>
+    <string name="exercice_1">EXERCICE 1</string>
+    <string name="radius">RADIUS</string>
+    <string name="hauteur">HAUTEUR</string>
+</resources>
